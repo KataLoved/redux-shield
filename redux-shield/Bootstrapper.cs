@@ -385,11 +385,8 @@ public class Bootstrapper
 		}
 		catch { /* ignored */ }
 	}
-	
-	private static string FixPath(string path)
-	{
-		return path.Replace("/", "\\");
-	}
+
+	private static string FixPath(string path) => path.Replace("/", "\\");
 
 	private static string _gtaVPath;
 	private static string _reduxPath;
